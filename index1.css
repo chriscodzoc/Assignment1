@@ -1,0 +1,191 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+/* Navbar */
+header .hmain{
+    padding-left: 8%;
+    padding-top: 2%;
+    display: flex;
+    justify-content: baseline;   
+    
+}
+header .hmain .h2{
+    padding-left: 20%;
+    
+}
+header .hmain .h2 a{
+    text-decoration: none;
+    padding-left: 10;
+    font-family:  'Roboto', sans-serif;
+    color: 0000;
+    padding-top: 2%;
+}
+header .hmain .h3{
+    padding-left: 28%;
+
+
+}
+header .hmain .h3 button{
+    background-color: white;
+    border-color: black;
+    padding: 20;
+    
+    
+    
+}
+/* one */
+.one{
+    align-items: center;
+    background-size: 100%;
+    background-image: url(./Images/details_banner.png);
+    width: 100%;
+    height: 100%
+    
+    
+    
+}
+.one p#p1{
+    font-family: 'Roboto', sans-serif ;
+    text-align: center;
+    color: white;
+    font-size: 80;
+    justify-content: space-around;
+    padding-top: 2%;
+
+}
+.one p#p2{
+    font-family:'Playfair Display', serif;
+    text-align: center;
+    color: white;
+    font-size: 40;
+    justify-content: space-around;
+    padding: 20;
+
+    
+
+}
+.one button{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding: 2%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border:2px solid ;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 45%;
+    
+    
+}
+/* two */
+.two{
+    padding: 2%;
+    
+
+    
+}
+.two p#p1main{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+.two p#p1{
+    text-align: center;
+    font-family:'Playfair Display', serif;
+
+}
+.two p#p2main{
+    text-align: center;
+    font-size: 30;
+    font-family: 'Roboto', sans-serif;
+
+}
+.two .det{
+    display: flex;
+}
+.two .det .card1{
+    text-align: center;
+    padding: 5%;
+}
+
+.two .det .card2{
+    text-align: center;
+    padding: 5%
+}
+
+.two .det .card3{
+    text-align: center;
+    padding: 5%
+}
+/* four */
+.four{
+    padding-top: 1%;
+    padding-left: 12%;
+    padding-bottom: 1%;
+}
+.four .messages{
+    display: flex;
+}
+.four .messages .msgtwo{
+    padding-left: 10%;
+}
+.four .messages .msgtwo p{
+    font-weight: bold;
+    
+}
+.four .messages .msgtwo input{
+    padding: 20%;
+    border-color: darkgray;
+    border: 1px solid;  
+    
+    
+}
+::placeholder{
+    color: gray;
+    font-size: 100%;
+}
+.four .messages .msgtwo button{
+    padding: 2%;
+    border: 2px solid;
+    background-color: white;
+    
+}
+footer{
+    background-image: url(./Images/footer-bg.png);
+    
+}
+footer .last .lfirst{
+    display: flex;
+    padding-left: 5%;
+    padding-top: 5%;
+    color: white;
+}
+footer .last .lfirst .l2{
+    padding-left: 25%;
+}
+footer .last .lfirst .l3{
+    padding-left: 20%;
+}
+footer .last .lfirst .l3 button{
+    padding: 10%;
+    background-color: white;
+    border:2px solid ;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+footer .last .lsecond{
+    display: flex;
+    padding-left: 35%;
+    
+}
+footer .last .lsecond ul{
+    list-style: none;
+    color: white;
+}
+.last p#p2{
+    text-align: center;
+    color: white;
+    padding: 1%;
+}
