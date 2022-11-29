@@ -176,6 +176,7 @@ footer .last .lfirst .l3 button{
     font-family: 'Roboto', sans-serif;
     color: aliceblue;
     margin: 50px;
+    font-size: 20px;
 }
 footer .last .lsecond{
     display: flex;
