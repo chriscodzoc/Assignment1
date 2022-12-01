@@ -18,6 +18,7 @@
 .Main .hmain .h2{
     padding-left: 250px;
     padding-top: 10px;
+    margin-left: 100px;
 
     
 }
@@ -31,6 +32,7 @@
 .Main .hmain .h3{
     padding-left: 350px;
     justify-content: end;
+    margin-left: 100px;
 }
 .Main .hmain .h3 button{
     background-color: white;
@@ -53,6 +55,7 @@
     
 }
 .one p#p1{
+    
     font-family: 'Roboto', sans-serif ;
     font-weight: bolder;
     text-align: center;
@@ -66,7 +69,7 @@
     font-family:'Playfair Display', serif;
     text-align: center;
     color: white;
-    font-size: 40;
+    font-size: 25;
     justify-content: space-around;
     padding: 20;
 
@@ -78,7 +81,7 @@
     padding-right: 45px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 720px;
+    margin-left: 850px;
     color: white;
     background-color: rgba(255, 255, 255, 0);
     border:2px solid ;
