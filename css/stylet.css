@@ -1,149 +1,145 @@
-body{
-    height: 100%;
-    width: 100%;
-}
-/* Navbar */
-header .hmain{
-    padding-left: 8%;
-    padding-top: 2%;
-    display: flex;
-    justify-content: baseline;   
-    
-}
-header .hmain .h2{
-    padding-left: 20%;
-    
-}
-header .hmain .h2 a{
-    text-decoration: none;
-    padding-left: 10;
-    font-family:  'Roboto', sans-serif;
-    color: 0000;
-    padding-top: 2%;
-}
-header .hmain .h3{
-    padding-left: 28%;
-
-
-}
-header .hmain .h3 button{
-    background-color: white;
-    border-color: black;
-    padding: 20;
-    
-    
-    
-}
-/* one */
-.one{
+.Main{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 6.5%;
+ }
+ .one{
     align-items: center;
     background-size: 100%;
     background-image: url(../Images/details_banner.png);
-    width: 100%;
-    height: 100%
-    
-    
-    
+    width: 120%;
+    height: 45%
 }
 .one p#p1{
+    
     font-family: 'Roboto', sans-serif ;
+    font-weight: bolder;
     text-align: center;
-    color: white;
-    font-size: 80;
+    color: rgb(255, 255, 255);
+    font-size: 24;
+   
     justify-content: space-around;
-    padding-top: 2%;
+    padding-top: 22%;
 
 }
 .one p#p2{
     font-family:'Playfair Display', serif;
     text-align: center;
     color: white;
-    font-size: 40;
+    font-size: 16px;
+    font-weight: bold;
     justify-content: space-around;
-    padding: 20;
+    padding: 0px;
 
     
 
 }
 .one button{
-    padding-left: 4%;
-    padding-right: 4%;
-    padding: 2%;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 170px;
     color: white;
     background-color: rgba(255, 255, 255, 0);
     border:2px solid ;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    margin-left: 45%;
+
+    border-width: 1px;
     
     
 }
 /* two */
-.two{
-    padding: 2%;
-    
 
-    
-}
 .two p#p1main{
     text-align: center;
     font-weight: bold;
+    color: gray;
     font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
 
 }
 .two p#p1{
     text-align: center;
     font-family:'Playfair Display', serif;
-    font-size: 20px;
 
 }
-.two p#p2main{
+.two h2{
     text-align: center;
-    font-size: 30;
+    font-weight: bold;
     font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+
 
 }
 .two .det{
-    display: flex;
+    width: max-content;
 }
-.two .det p{
-    font-family:'Playfair Display', serif;
-    font-size: 70px;
+.two .det{
+    display: flex;
+    width: 0px;
+    margin-top: 30px;
 }
 .two .det .card1{
     text-align: center;
-    padding: 5%;
 }
 
 .two .det .card2{
     text-align: center;
-    padding: 5%
+    
 }
 
 .two .det .card3{
     text-align: center;
-    padding: 5%
+    
 }
-/* four */
 .four{
     padding-top: 1%;
     padding-left: 12%;
-    padding-bottom: 1%;
+    padding-bottom: 15%;
 }
 .four .messages{
     display: flex;
 }
 .four .messages .msgtwo{
     padding-left: 10%;
+    height: 10%;
+
 }
 .four .messages .msgtwo p{
     font-weight: bold;
     
 }
-.four .messages .msgtwo input{
-    padding: 20%;
+.four .messages .msgtwo #ms1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 250px;
+    padding-right: 160px;
     border-color: darkgray;
-    border: 1px solid;  
+    font-family: 'Playfair Display', serif;
+}
+.four .messages .msgtwo #ms2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 250px;
+    padding-right: 160px;
+    border-color: darkgray;
+    font-family: 'Playfair Display', serif;
+}
+.four .messages .msgtwo #ms3{
+    
+    padding-left: 250px;
+    padding-right: 160px;
+    border-color: darkgray;
+    font-family: 'Playfair Display', serif;
+}
+.four .messages .msgtwo input{
+    padding: 19%;
+    border-color: darkgray;
+    border: 0.5px solid;  
+    padding-left: 183px;
+    padding-right: 227px;
     
     
 }
@@ -152,8 +148,10 @@ header .hmain .h3 button{
     font-size: 100%;
 }
 .four .messages .msgtwo button{
-    padding: 2%;
-    border: 2px solid;
+    padding: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border: 1px solid;
     background-color: white;
     
 }
@@ -168,15 +166,21 @@ footer .last .lfirst{
     color: white;
 }
 footer .last .lfirst .l2{
-    padding-left: 25%;
+    padding-left: 20%;
+    
+}
+footer .last .lfirst .l2 h1{
+    font-size: 10px;
 }
 footer .last .lfirst .l3{
-    padding-left: 20%;
+    padding-left: 250px;
 }
 footer .last .lfirst .l3 button{
-    padding: 20%;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     background-color: transparent;
-    border:2px solid white;
+    border:1px solid white;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: aliceblue;
@@ -185,12 +189,14 @@ footer .last .lfirst .l3 button{
 }
 footer .last .lsecond{
     display: flex;
-    padding-left: 35%;
+    padding-left: 33%;
+    border-top: 1px solid rgb(47, 46, 46);
     
 }
 footer .last .lsecond ul{
     list-style: none;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 .last p#p2{
     text-align: center;
