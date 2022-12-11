@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+}
+.container{
+    margin: 2.5% 5%;
+    font-family: 'Roboto', sans-serif;
+}
+.head-main {
+    display: flex;
+    justify-content: space-evenly;
+    }
+.head-two ul {
+        list-style: none;
+        display: flex;
+}
+.head-two ul li {
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.head-two ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+button{
+    padding: 20px;
+    border-color: black;
+    border-width: 1px;
+    background-color: transparent;
+}
+.section-one{
+    height: 70%;
+    background-image: url(../Images/details_banner.png);
+    background-size: cover;
+    align-items: center;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.section-one button{
+    background-color: transparent;
+    border-width: 2px ;
+    justify-content: center;
+    align-items: center;
+}
+.section-two{
+    align-items: center;
+}
+.section-two p.two-text-one{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    text-align: center;
+}
+.section-two p.two-text-two{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    text-align: center;
+}
+.section-two .det{
+    display: flex;
+    justify-content: center;
+}
+.section-two .det .card{
+    text-align: center;
+}
+.section-four{
+    display: flex;
+
+}
+.section-four{
+    display: flex;
+    justify-content:space-evenly;
+}
+footer{
+    
+    background-image: url(../Images/footer-bg.png);
+    color: rgb(255, 255, 255);
+    
+}
+footer button{
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+.footer-topsec{
+    display: flex;
+    justify-content:space-evenly;
+}
+footer .footer-topsec .footer-topsec-two{
+    display: flex;
+}
+.footer-botsec{
+    display: flex;
+    justify-content: center;
+}
+.footer-botsec .unod-l ul{
+    list-style: none;
+}
