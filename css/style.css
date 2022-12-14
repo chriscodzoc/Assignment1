@@ -25,10 +25,14 @@ body{
     color: rgb(0, 0, 0);
 }
 button{
-    padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     border-color: black;
     border-width: 1px;
     background-color: transparent;
+    font-family: 'Roboto', sans-serif;
 }
 .section-one{
     height: 70%;
@@ -49,7 +53,7 @@ p.head-text-one{
     font-weight: bolder;
 }
 p.sec1-text{
-    font-size: 40px;
+    font-size: 20px;
 }
 .section-one button{
     background-color: transparent;
@@ -67,11 +71,13 @@ p.sec1-text{
     font-family: 'Roboto', sans-serif;
     color: gray;
     text-align: center;
+    letter-spacing: 5px;
+    font-weight: bold
 }
 .section-two p.two-text-two{
-    font-size: 40px;
-    font-family: 'Playfair Display', serif;
-    font-weight: bolder;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     text-align: center;
 }
 .section-two .det{
@@ -80,6 +86,8 @@ p.sec1-text{
 }
 .section-two .det .card{
     text-align: center;
+    padding: 50px;
+    font-family: 'Playfair Display', serif;
 }
 .section-four{
     display: flex;
@@ -89,10 +97,37 @@ p.sec1-text{
     display: flex;
     justify-content:space-evenly;
 }
-input #ms1{
-    padding: 10px;
-    border-width: 20px;
+.section-four p{
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    font-weight: bolder;
+    letter-spacing: 3px;
 }
+p.send-us{
+    color: black;
+    letter-spacing: 0px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+input#ms1{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;  
+
+}
+input#ms3{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+::placeholder{
+    font-family: 'Playfair Display', serif;
+    color: gray;
+    font-size: larger;
+}
+
 footer{
     
     background-image: url(../Images/footer-bg.png);
@@ -104,17 +139,44 @@ footer button{
     border-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-width: 2px;
+    font-weight: 10px;
 }
 .footer-topsec{
     display: flex;
     justify-content:space-evenly;
+    padding-bottom: 60px;
 }
 footer .footer-topsec .footer-topsec-two{
     display: flex;
 }
+.footer-topsec-one{
+    padding-top: 45px;
+}
+.footer-topsec-two{
+    border-bottom: 0.1px solid;
+ }
+ .footer-topsec-one-one{
+    padding-bottom: 30px;
+ }
+ p.footer-heading{
+    font-family: 'Roboto';
+ }
+.footer-topsec-two-two{
+   padding-left: 100px;
+   padding-top: 50px;
+}
+
 .footer-botsec{
     display: flex;
     justify-content: center;
+}
+.footer-botsec .unod-l{
+    padding-right: 43px;
+    font-family: 'Roboto';
+
 }
 .footer-botsec .unod-l ul{
     list-style: none;
