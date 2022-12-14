@@ -3,7 +3,6 @@ body{
 }
 .container{
     margin: 2.5% 5%;
-    font-family: 'Roboto', sans-serif;
 }
 .head-main {
     display: flex;
@@ -12,6 +11,10 @@ body{
 .head-two ul {
         list-style: none;
         display: flex;
+}
+.head-two{
+    font-family: 'Roboto', sans-serif;
+
 }
 .head-two ul li {
     justify-content: space-between;
@@ -32,15 +35,29 @@ button{
     background-image: url(../Images/details_banner.png);
     background-size: cover;
     align-items: center;
-    font-size: 2rem;
     color: rgb(255, 255, 255);
     text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+p.head-text-one{
+    font-size: 60px;
+    letter-spacing: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+p.sec1-text{
+    font-size: 40px;
 }
 .section-one button{
     background-color: transparent;
     border-width: 2px ;
     justify-content: center;
     align-items: center;
+    color: white;
+    border-color: white;
 }
 .section-two{
     align-items: center;
@@ -72,15 +89,21 @@ button{
     display: flex;
     justify-content:space-evenly;
 }
+input #ms1{
+    padding: 10px;
+    border-width: 20px;
+}
 footer{
     
     background-image: url(../Images/footer-bg.png);
     color: rgb(255, 255, 255);
+    padding: 20px;
     
 }
 footer button{
     border-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
+    padding: 20px;
 }
 .footer-topsec{
     display: flex;
@@ -95,4 +118,9 @@ footer .footer-topsec .footer-topsec-two{
 }
 .footer-botsec .unod-l ul{
     list-style: none;
+}
+p.footer-heading{
+    font-size: 40px;
+    font-weight: bold;
+
 }
