@@ -4,11 +4,6 @@ body{
 .container{
     margin: 2.5% 5%;
 }
-span{
-    background-color: black;
-    width: 20px;
-    height: 5px;
-}
 .head-main {
     display: flex;
     justify-content: space-evenly;
@@ -66,10 +61,12 @@ p.sec1-text{
     padding-left: 50px;
     padding-bottom: 20px;
     padding-top: 20px;
-    border-color: rgb(0, 0, 0);
+    color: white;
+    border-color: rgb(255, 255, 255);
     border-width: 1px;
     background-color: transparent;
     font-family: 'Roboto', sans-serif;
+    background: none;
 }
 .section-two{
     align-items: center;
@@ -112,6 +109,24 @@ p.sec1-text{
     font-weight: bolder;
     letter-spacing: 3px;
 }
+span.logo{
+    border-radius: 50%;
+    background-color: rgb(48, 46, 46);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(48, 46, 46);
+}
+span.sec-four{
+height: 6px;
+width: 92px;
+background-color: black;
+display: block;
+}
+
 .msgtwo-one{
     line-height: 10px;
 }
@@ -120,7 +135,6 @@ p.send-us{
     letter-spacing: 0px;
     font-size: 2.5rem;
     font-weight:500;
-    text-decoration: underline;
 }
 input#ms1 {
     padding-left: 10px;
@@ -145,6 +159,9 @@ h2{
 }
 .msgtwo-two{
     line-height: 26.1px;
+}
+.footer-topsec-one-two{
+    display: flex;
 }
 footer{
     
@@ -179,6 +196,9 @@ footer .footer-topsec .footer-topsec-two{
  .footer-topsec-one-one{
     padding-bottom: 30px;
  }
+ .footer-topsec-one-two{
+    color: rgb(255, 255, 255);
+ }
  p.footer-heading{
     font-family: 'Roboto';
  }
@@ -203,4 +223,73 @@ p.footer-heading{
     font-size: 40px;
     font-weight: bold;
 
+}
+@media (min-width: 450px) and (max-width: 750px){
+    .container {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .section-one {
+        color: white;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        background-position-x: center;
+        background-position-y: center;
+        background-image: url(../Images/details_banner.png);
+    }
+    .head-text-one {
+        font-family: 'Roboto';
+        padding: 15px;
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .sec1-text{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .section-one button {
+        background: transparent;
+        color: white;
+        font-family: 'Roboto';
+        border-color: white;
+        padding: 20px;
+        border-width: 2px;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .section-two .det {
+        display: block;
+        justify-content: center;
+    }
+    .msgone img{
+        width: 400px;
+    }
+    .section-four {
+        display: block;
+        justify-content: space-evenly;
+        padding: 20px;
+    }
+    .footer-topsec-one-one img{
+        width: 90px;
+    }
+    .card{
+        align-items: center;
+        padding: 20px;
+    }
+   
+    .footer-botsec {
+    display: block;
+    justify-content: center;
+    }
+    .footer-topsec {
+        display: block;
+        justify-content: space-evenly;
+        padding-bottom: 60px;
+    }
 }
