@@ -4,6 +4,11 @@ body{
 .container{
     margin: 2.5% 5%;
 }
+span{
+    background-color: black;
+    width: 20px;
+    height: 5px;
+}
 .head-main {
     display: flex;
     justify-content: space-evenly;
@@ -44,6 +49,7 @@ button{
     padding: 10px;
     display: flex;
     flex-direction: column;
+    line-height: 0.1px;
     justify-content: center;
 }
 p.head-text-one{
@@ -56,12 +62,14 @@ p.sec1-text{
     font-size: 20px;
 }
 .section-one button{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
     background-color: transparent;
-    border-width: 2px ;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    border-color: white;
+    font-family: 'Roboto', sans-serif;
 }
 .section-two{
     align-items: center;
@@ -86,7 +94,8 @@ p.sec1-text{
 }
 .section-two .det .card{
     text-align: center;
-    padding: 50px;
+    padding:100px;
+    color: rgb(72, 72, 72);
     font-family: 'Playfair Display', serif;
 }
 .section-four{
@@ -103,31 +112,40 @@ p.sec1-text{
     font-weight: bolder;
     letter-spacing: 3px;
 }
+.msgtwo-one{
+    line-height: 10px;
+}
 p.send-us{
     color: black;
     letter-spacing: 0px;
     font-size: 2.5rem;
-    font-weight: bold;
+    font-weight:500;
+    text-decoration: underline;
 }
-input#ms1{
-    padding-left: 80px;
-    padding-right: 80px;
+input#ms1 {
+    padding-left: 10px;
+    padding-right: 240px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+input#ms3 {
+    padding-left: 10px;
+    padding-right: 240px;
     padding-top: 40px;
-    padding-bottom: 40px;  
+    padding-bottom: 40px;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+}
 
-}
-input#ms3{
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
 ::placeholder{
     font-family: 'Playfair Display', serif;
     color: gray;
     font-size: larger;
 }
-
+.msgtwo-two{
+    line-height: 26.1px;
+}
 footer{
     
     background-image: url(../Images/footer-bg.png);
@@ -174,7 +192,7 @@ footer .footer-topsec .footer-topsec-two{
     justify-content: center;
 }
 .footer-botsec .unod-l{
-    padding-right: 43px;
+    padding-right: 60px;
     font-family: 'Roboto';
 
 }
